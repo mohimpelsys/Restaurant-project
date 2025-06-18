@@ -24,7 +24,7 @@ $pages = [
 
 <form method="GET" action="include.php">
     <select name="page">
-        <option value="">Select a recipe</option>
+        <option value="">Choose a recipe to view</option>
         <?php foreach($pages as $key => $value ){ ?>
             <option
                 value="<?php echo e($key); ?>"
